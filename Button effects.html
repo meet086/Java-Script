@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Effects Using Java Scripts</title>
+</head>
+<body>
+
+    <style>
+        button{
+            font-size: 15px;
+        }
+        .meet{
+            font-size: 20px;
+        }
+    </style>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='car.gif'" class="meet">Start</button>
+
+<img id="myImage" src="Fortuner.jfif" style="width:25%" height="25%">   
+
+<button onclick="document.getElementById('myImage').src='Fortuner.jfif'" class="meet">Stop</button><hr>
+
+
+
+
+
+<h2><u>None:-</u></h2>
+<p id="demo1">JavaScript can hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('demo1').style.display='none'">Click Me!</button> <hr> 
+
+<h2><u>Display Block:-</u></h2>
+<p>Java Script can show hidden elements.</p>
+<p id="demo2" style="display: none;">Heloo Brother 😀</p>
+<button type="button" onclick="document.getElementById('demo2').style.display='block'">Click Here!</button> <hr>
+
+<h2><u>Font-Resizing:-</u></h2>
+<p id="demo">JavaScript is a Scripting Language.</p>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='30px'">Click Me!</button> <hr>
+
+</body>
+</html>
